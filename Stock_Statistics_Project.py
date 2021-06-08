@@ -97,7 +97,7 @@ Company_Daily_Stock_Data = {
                               'Current Stock Price': CurrentPrice,
                               'Previous Stock Closing Price' : PreviousClosePrice,
                               'Market Capitalization': MarketCap
-                           }
+                            }
 
 # Create second dataframe from Company Daily Stock Data dictionary
 Df2 = pd.DataFrame(Company_Daily_Stock_Data)
